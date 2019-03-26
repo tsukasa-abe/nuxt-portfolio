@@ -1,9 +1,11 @@
 <template>
- <div>
-   <navbar/>
-   <main class="container">
+  <div>
+    <header>
+      <navbar/>
+   </header>
+  <main class="container">
      <nuxt/>
-   </main>
+  </main>
  </div>
 </template>
 <script>
@@ -14,7 +16,9 @@ export default {
  }
 }
 </script>
+
 <style>
+/* ここは全体のスタイルとして当てたいときに追加する */
 html {
  font-family: "Source Sans Pro", 游ゴシック体, 'Yu Gothic', YuGothic, 'ヒラギノ角ゴシック Pro', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, sans-serif;
  font-size: 16px;
