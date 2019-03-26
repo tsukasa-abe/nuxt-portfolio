@@ -1,5 +1,14 @@
 <template>
   <section class="container">
+    <!-- <vue-markdown>
+    # マークダウンで記載します。
+    - 欲しいページ
+      - 自己紹介ページ
+      - 制作実績
+      - 仕事内容
+      - お問い合わせ
+      - note
+    </vue-markdown> -->
     <div>
       <app-logo/>
       <h1 class="title">
@@ -24,11 +33,13 @@
 
 <script>
 import AppLogo from '~/components/AppLogo.vue'
-
+import VueMarkdown from 'vue-markdown'
 export default {
   components: {
-    AppLogo
-  }
+    AppLogo,
+    VueMarkdown
+  },
+  transition: 'slide-left'
 }
 </script>
 
