@@ -1,6 +1,6 @@
 <template>
   <section class="index">
-    <div class="columns is-centered ">
+    <div class="columns is-centered">
       <card class="column is-one-third " v-for="post in posts"
         v-bind:key="post.fields.path"
         :title="post.fields.title"

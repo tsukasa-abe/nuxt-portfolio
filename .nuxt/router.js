@@ -4,7 +4,6 @@ import { interopDefault } from './utils'
 
 const _2423f7dc = () => interopDefault(import('../pages/about.vue' /* webpackChunkName: "pages/about" */))
 const _353b1588 = () => interopDefault(import('../pages/items/index.vue' /* webpackChunkName: "pages/items/index" */))
-const _23835900 = () => interopDefault(import('../pages/testbulma.vue' /* webpackChunkName: "pages/testbulma" */))
 const _9754be8c = () => interopDefault(import('../pages/items/_path.vue' /* webpackChunkName: "pages/items/_path" */))
 const _0da5ded7 = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
 
@@ -90,10 +89,6 @@ export function createRouter() {
       path: "/items",
       component: _353b1588,
       name: "items"
-    }, {
-      path: "/testbulma",
-      component: _23835900,
-      name: "testbulma"
     }, {
       path: "/items/:path",
       component: _9754be8c,
